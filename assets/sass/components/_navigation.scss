@@ -1,0 +1,72 @@
+nav.navbar{
+  .container{
+    position: relative;
+  }
+  .hot-line{
+    position: absolute;
+    top:30px;
+    right: 20px;
+    padding-left: 30px;
+    background: url("../../images/icon_phone.png") no-repeat left center;
+    font-size: 28px;
+    color: $red;
+    line-height: 50px;
+  }
+}
+
+.navbar-collapse.collapse{
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 30px;
+}
+.navbar-nav{
+  border:1px solid #d6d6d6;
+  width: 100%;
+  li{
+    border-right: 1px solid #d6d6d6;
+    text-transform: uppercase;
+    font-weight: normal;
+    &:last-child{
+      border-right: none;
+    }
+    a{
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      -ms-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s;
+      padding-left: 20px;
+      padding-right: 20px;
+      &:hover{
+        background: $green;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+.navbar-toggle{
+  background: $green;
+  float: left;
+  margin-left: 10px;
+  .icon-bar{
+    background: #ffffff;
+  }
+}
+
+@media screen and (max-width: 767px){
+  nav.navbar{
+    .hot-line{
+      top:0;
+    }
+  }
+  .navbar-collapse.collapse{
+    margin-top: 0;
+  }
+  .navbar-nav{
+    margin: 0;
+    li{
+      border:none;
+    }
+  }
+}

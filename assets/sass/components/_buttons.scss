@@ -1,0 +1,16 @@
+
+.button--default{
+  background: $gray;
+  &:hover, &.active, &:focus{
+    background: #e4ded2;
+  }
+}
+
+.button--lg{
+  line-height: 46px ;
+  padding: 0 20px;
+}
+
+.button--block{
+  width: 100%;
+}

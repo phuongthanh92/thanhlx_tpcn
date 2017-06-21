@@ -1,0 +1,15 @@
+.breadcrumb{
+  background: transparent;
+  padding-left: 0;
+  font-weight: bold;
+  a{
+    color: $blue;
+  }
+  li{
+    color: $gray;
+  }
+  > li + li:before{
+    content: ">";
+    color: $blue;
+  }
+}

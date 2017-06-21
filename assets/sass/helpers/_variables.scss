@@ -1,0 +1,31 @@
+$color-text: #402a2e;
+$body-bg: #efece5;
+$path-img: '';
+
+
+//responsive device
+$breakpoints: (
+        'mobile':(max-with: 480px),
+        'hmobile': (max-width: 767px),
+        'tablet': (max-width: 991px),
+        'htablet': (max-width: 1199px),
+        'desktop': (min-width: 1199px),
+        'HDdesktop': (min-width: 1440px)
+) !default;
+
+/*set color*/
+$green: #3db64d;
+$red: #f10308;
+$blue: #0277a4;
+$gray: #a9a9a9;
+
+$primary: #000;
+
+
+
+
+
+
+
+
+

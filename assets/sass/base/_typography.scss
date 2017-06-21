@@ -1,0 +1,81 @@
+$sans-serif: "Lato";
+$serif: Merriweather, Georgia, 'Times New Roman', serif;
+//set font weights
+$light: 300;
+$normal: 400;
+$semibold: 500;
+$bold: 700;
+
+@font-face {
+  font-family: 'SFUSwissBTExtraCompressed';
+  src: url('../fonts/SFUSwissBTExtraCompressed.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/SFUSwissBTExtraCompressed.woff') format('woff'),
+  url('../fonts/SFUSwissBTExtraCompressed.ttf') format('truetype'),
+  url('../fonts/SFUSwissBTExtraCompressed.svg#SFUSwissBTExtraCompressed') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+//set body
+
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $sans-serif, sans-serif;
+  font-weight: $normal;
+  font-size: 1.4rem;
+  color: $color-text; //color variable set elsewhere
+  -webkit-text-size-adjust: 100%; //fix for iOS
+  line-height: 1.5;
+  min-height: 100%;
+}
+
+/*// Setting input
+::placeholder { !* Firefox 19+ *!
+  color: red;
+}*/
+
+h1, h2, h3, h4, h5, h6 {
+
+}
+
+h1 {
+}
+
+h2 {
+}
+
+h3 {
+}
+
+h4 {
+}
+
+h5 {
+}
+
+h6 {
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+span {
+
+}
+
+.text-success{
+  color: $green;
+}
+.text-primary{
+  color: $blue;
+}
