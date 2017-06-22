@@ -6,6 +6,12 @@
   }
 }
 
+.btn{
+  -webkit-border-radius:0;
+  -moz-border-radius:0;
+  border-radius:0;
+}
+
 .button--lg{
   line-height: 46px ;
   padding: 0 20px;
@@ -13,4 +19,9 @@
 
 .button--block{
   width: 100%;
+}
+
+.btn-primary{
+  background: $blue;
+  border-color: $blue;
 }

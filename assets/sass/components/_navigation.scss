@@ -53,7 +53,39 @@ nav.navbar{
     background: #ffffff;
   }
 }
+.dropdown-menu{
+  padding: 0;
+  -webkit-border-radius:0;
+  -moz-border-radius:0;
+  border-radius:0;
+  border:none;
+  min-width: 191px;
+  >li{
+    border:none;
+    >a{
+      padding: 10px 15px;
+      background: $green;
+      color: #ffffff;
 
+    }
+    &:hover{
+      a{
+        background: #2fad40;
+      }
+    }
+  }
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus{
+  background: $green;
+  color: #ffffff;
+}
+@media screen and (min-width: 1200px){
+  .navbar-nav li.dropdown:hover{
+    .dropdown-menu{
+      display: block;
+    }
+  }
+}
 @media screen and (max-width: 767px){
   nav.navbar{
     .hot-line{

@@ -73,3 +73,11 @@
   -o-transform: rotate($deg);
   transform: rotate($deg);
 }
+
+@mixin square($sz){
+  width: $sz;
+  height: $sz;
+  text-align: center;
+  line-height: $sz;
+  display: inline-block;
+}
