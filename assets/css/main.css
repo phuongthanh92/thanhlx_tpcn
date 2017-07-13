@@ -6567,6 +6567,28 @@ nav.navbar .hot-line {
   background: url("../../images/icon_next.png") no-repeat center;
   background-size: 100% 100%; }
 
+.featured-product-slider-next, .featured-product-slider-next-2 {
+  position: relative;
+  width: 36px;
+  height: 40px;
+  display: inline-block; }
+  .featured-product-slider-next .bx-next, .featured-product-slider-next-2 .bx-next {
+    background: url("../../images/icon_next.png") no-repeat center;
+    background-size: 100% 100%;
+    width: 36px;
+    height: 36px; }
+
+.featured-product-slider-prev, .featured-product-slider-prev-2 {
+  position: relative;
+  width: 36px;
+  height: 40px;
+  display: inline-block; }
+  .featured-product-slider-prev .bx-prev, .featured-product-slider-prev-2 .bx-prev {
+    background: url("../../images/icon_prev.png") no-repeat center;
+    background-size: 100% 100%;
+    width: 36px;
+    height: 36px; }
+
 #feedback-slider {
   padding-left: 30px;
   padding-right: 30px; }
