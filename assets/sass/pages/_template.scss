@@ -202,6 +202,7 @@
     .item-wrapper {
       border: 1px solid #d6d6d6;
       padding: 15px;
+      width: 100%;
     }
     .photo {
       display: block;
@@ -218,6 +219,7 @@
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
+      display: block;
     }
     .time{
       font-size: 12px;
@@ -655,7 +657,13 @@
     }
   }
 }
-
+.col-md-8{
+  .cart-page{
+    .table{
+      min-width: 600px;
+    }
+  }
+}
 .cart-page{
   .table{
     border:1px solid #d6d6d6;
