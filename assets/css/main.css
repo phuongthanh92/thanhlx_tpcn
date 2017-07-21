@@ -6258,7 +6258,8 @@ nav.navbar .hot-line {
     float: left;
     width: 33.333333%; }
     .list-product-grid .item .item-wrapper {
-      border: 1px solid #d6d6d6; }
+      border: 1px solid #d6d6d6;
+      width: 100%; }
     .list-product-grid .item .photo {
       display: block;
       padding: 15px; }
@@ -6273,7 +6274,8 @@ nav.navbar .hot-line {
       text-overflow: ellipsis;
       white-space: nowrap;
       padding-left: 15px;
-      padding-right: 15px; }
+      padding-right: 15px;
+      display: block; }
     .list-product-grid .item .description {
       color: #a9a9a9;
       line-height: 18px;
@@ -6496,7 +6498,8 @@ nav.navbar .hot-line {
     width: 60%;
     padding: 0 40px 0 20px;
     background: url("../../images/slider-background.jpg") no-repeat top right;
-    background-size: 18px 100%; }
+    background-size: 18px 100px;
+    min-height: 100px; }
   .item .item-fb .photo {
     float: left;
     text-align: center;
@@ -6511,7 +6514,9 @@ nav.navbar .hot-line {
   .item .item-fb .information {
     float: left;
     padding: 10px 5px;
-    margin-top: 10px; }
+    margin-top: 10px;
+    width: calc(40% - 80px);
+    width: -moz-calc(40% - 80px); }
     .item .item-fb .information .name {
       font-family: "Lato-Bold";
       color: #3db64d; }
@@ -6549,7 +6554,10 @@ nav.navbar .hot-line {
         font-family: "Lato-Bold";
         color: #3db64d; }
     .list-qnas .item .content {
-      padding-left: 10px; }
+      padding-left: 10px;
+      width: calc(100% - 188px);
+      width: -moz-calc(100% - 188px);
+      overflow: hidden; }
       .list-qnas .item .content .name {
         font-size: 16px;
         font-family: "Lato-Bold";
