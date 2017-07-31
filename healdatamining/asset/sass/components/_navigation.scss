@@ -1,0 +1,280 @@
+.main-menu-media {
+  position: relative;
+  @extend %clearfix;
+  margin: 0 auto;
+  .logo{
+    a{
+      display: block;
+      padding: 10px;
+    }
+  }
+  >.pull-right{
+    display: table;
+  }
+  .another-menu{
+    width: 65px;
+    height: 65px;
+    vertical-align: middle;
+    display: table-cell;
+    border-left: 1px solid #f2f2f2;
+    text-align: center;
+    font-size: 24px;
+    color: #818181;
+  }
+  .search-box{
+    border-left: 1px solid #f2f2f2;
+    width: 65px;
+    height: 65px;
+    position: relative;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    form{
+      height: 65px;
+      input{
+        width: 0;
+        height: 65px;
+        line-height: 65px;
+        border:none;
+        background: transparent;
+        position: absolute;
+        padding: 0 65px 0 10px;
+        top:0;
+        right: 0;
+      }
+      button{
+        width: 65px;
+        height: 65px;
+        top:0;
+        right: 0;
+        border:none;
+        background: url("../../images/search-icon.png") no-repeat center;
+
+      }
+    }
+  }
+  .menu-nav {
+    background: #ffffff;
+    margin-bottom: 0;
+    @extend %clearfix;
+    .menu-drop-down-wrapper {
+      float: left;
+      @extend %clearfix;
+      > a {
+        line-height: 35px;
+        padding: 15px;
+        text-transform: uppercase;
+        display: block;
+        color: #818181;
+        &:hover, &.active {
+          color: $blue;
+          background: #eeeeee;
+        }
+      }
+    }
+  }
+  .menu-drop-down {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    background: $supperDark;
+    color: #ffffff;
+    .menu-orientation-bar {
+      background: #181818;
+      text-transform: uppercase;
+      .title {
+        line-height: 60px;
+        font-weight: 700;
+      }
+      .list-tabs {
+        font-family: "Lato-Regular";
+        margin-bottom: 0;
+        .tab {
+          line-height: 38px;
+          font-weight: 500;
+          margin-bottom: 16px;
+          font-size: 12px;
+          a {
+            color: #919191;
+            background: rgba(46, 46, 46, 0.9);
+            display: block;
+            padding: 0 10px;
+            font-weight: bold;
+          }
+          &:hover, &.active {
+            background: #020202;
+            a {
+              background: transparent;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+
+      .news-facebook-tab {
+        padding:  0 30px ;
+        font-family: Lato-Bold;
+        font-size: 16px;
+        background: #105391;
+        cursor: pointer;
+        &.active{
+          background: #020202;
+        }
+        i{
+          font-size: 30px;
+          float: left;
+
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+  .list-news{
+    .item-normal-news{
+      .photo{
+        height: 152px;
+      }
+    }
+  }
+
+  .menu-another-news{
+    background: #181818;
+    margin-bottom: 0;
+    border-top: 3px solid $blue;
+    .list-another{
+      li{
+        float: left;
+        a{
+          line-height: 40px;
+          padding: 15px;
+          border-top: 3px solid transparent;
+          margin-top: -3px;
+          text-transform: uppercase;
+          color: #919191;
+          font-family: "Lato-Regular";
+          display: block;
+        }
+        &:hover, .active{
+          a{
+            color: #ffffff;
+            border-top: 3px solid $supperDark;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+@media screen and (min-width: 1200px) {
+  .main-menu-media {
+    .menu-drop-down {
+      .row {
+        position: relative;
+      }
+      .menu-orientation-bar {
+        width: 250px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        padding: 0 0 90px 30px;
+
+        .title {
+          line-height: 60px;
+          font-weight: 700;
+        }
+        .list-tabs {
+          .tab {
+            padding-right: 25px;
+          }
+        }
+
+        .news-facebook-tab {
+          position: absolute;
+          width: 100%;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          padding:  0 30px ;
+          line-height: 84px;
+          i{
+            line-height: 80px;
+          }
+        }
+      }
+      .menu-orientation-content {
+        overflow: hidden;
+        padding: 0 20px;
+        margin-left: 250px;
+      }
+    }
+    .menu-nav {
+      .menu-drop-down-wrapper {
+        .menu-drop-down{
+          border-top: 3px solid $blue;
+          z-index: -1;
+          opacity: 0;
+        }
+        &:hover, &.active{
+          .menu-drop-down{
+            z-index: 10;
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+  .main-menu-media {
+    .menu-nav {
+      background: #0a0a0a;
+      .menu-drop-down-wrapper{
+        &:nth-child(6),&:nth-child(7),&:nth-child(8),&:nth-child(9),&:nth-child(10){
+          display: none;
+        }
+      }
+    }
+    .menu-drop-down {
+      .container{
+        width: 100%;
+
+      }
+      .menu-orientation-bar{
+        @include clearfix;
+        .title{
+          float: left;
+          padding-left: 20px;
+          padding-right: 20px;
+          margin-right: 20px;
+        }
+        .list-tabs{
+          float: left;
+          .tab{
+            float: left;
+            width: 172px;
+            margin: 11px 5px !important;
+            text-align: center;
+          }
+        }
+        .news-facebook-tab{
+          float: right;
+          line-height: 60px;
+          i{
+            line-height: 56px;
+          }
+        }
+      }
+      .menu-orientation-content{
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+}
+

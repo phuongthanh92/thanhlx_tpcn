@@ -1,0 +1,281 @@
+@each $menuName, $color in (menu1, #ff0000),
+        (menu2, #b1bf10),
+        (menu3, #00aeff) {
+  .#{$menuName} {
+    background-color: $color;
+  }
+}
+
+.facebook-author {
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    overflow: hidden;
+    float: left;
+    margin-right: 10px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .info {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    .name {
+      font-weight: bold;
+      @include textoverflow(20px);
+    }
+    .time {
+      font-weight: 300;
+      @include textoverflow(20px);
+      color: #cbcbcb;
+    }
+  }
+  .facebook-icon {
+    float: right;
+  }
+}
+
+.list-news {
+  @extend %clearfix;
+  padding: 10px 0;
+  margin: 0 -10px;
+  .item {
+    float: left;
+    padding: 10px;
+    .photo {
+      .type {
+        padding: 0 10px;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 24px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
+    }
+  }
+
+  .item-normal-news {
+    .photo {
+      position: relative;
+      height: 200px;
+      overflow: hidden;
+      margin-bottom: 15px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .information {
+      font-family: Roboto, sans-serif;
+      .title {
+        @include textoverflow(20px);
+        font-weight: 500;
+        margin-bottom: 3px;
+      }
+      .link {
+        color: #1b98d9;
+        font-weight: 300;
+        font-size: 12px;
+        @include textoverflow(16px);
+        margin-bottom: 10px;
+      }
+      .description {
+        line-height: 16px;
+        font-size: 12px;
+        font-weight: 300;
+        height: 32px;
+        color: #808080;
+        margin-bottom: 10px;
+        overflow: hidden;
+        font-family: "Lato-Regular";
+      }
+      .index {
+        width: 100%;
+        color: #808080;
+        font-size: 12px;
+        .square-splash {
+          background: #808080;
+        }
+        tr > {
+          td ul.list-inline {
+            > li {
+              padding-right: 0;
+              i {
+                font-size: 14px;
+                color: $yellow;
+              }
+            }
+          }
+          td:last-child {
+            text-align: right;
+          }
+        }
+      }
+    }
+  }
+
+  .item-facebook-news-1 {
+    .photo {
+      position: relative;
+      overflow: hidden;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .facebook-author {
+      position: absolute;
+      padding: 15px;
+      top: 0;
+      left: 0;
+      width: 100%;
+      color: #ffffff;
+      background: rgba(0, 0, 0, 0.8);
+      background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(246, 246, 246, 0.19) 76%, rgba(0, 0, 0, 0) 100%);
+      background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.8)), color-stop(76%, rgba(246, 246, 246, 0.19)), color-stop(100%, rgba(0, 0, 0, 0)));
+      background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(246, 246, 246, 0.19) 76%, rgba(0, 0, 0, 0) 100%);
+      background: -o-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(246, 246, 246, 0.19) 76%, rgba(0, 0, 0, 0) 100%);
+      background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(246, 246, 246, 0.19) 76%, rgba(0, 0, 0, 0) 100%);
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(246, 246, 246, 0.19) 76%, rgba(0, 0, 0, 0) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000', GradientType=0);
+      .facebook-icon {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        font-size: 21px;
+        line-height: 1;
+      }
+
+    }
+    .post {
+      position: absolute;
+      padding: 15px;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      color: #ffffff;
+      background: rgba(0, 0, 0, 0);
+      background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(246, 246, 246, 0.25) 31%, rgba(0, 0, 0, 0.8) 100%);
+      background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(31%, rgba(246, 246, 246, 0.25)), color-stop(100%, rgba(0, 0, 0, 0.8)));
+      background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(246, 246, 246, 0.25) 31%, rgba(0, 0, 0, 0.8) 100%);
+      background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(246, 246, 246, 0.25) 31%, rgba(0, 0, 0, 0.8) 100%);
+      background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(246, 246, 246, 0.25) 31%, rgba(0, 0, 0, 0.8) 100%);
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(246, 246, 246, 0.25) 31%, rgba(0, 0, 0, 0.8) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000', GradientType=0);
+      .name {
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        @include textoverflow(20px);
+      }
+      .description {
+        font-size: 13px;
+        line-height: 17px;
+        height: 34px;
+        overflow: hidden;
+        margin-bottom: 10px;
+      }
+      .index {
+        > span {
+          margin-right: 25px;
+          > i {
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+
+  }
+
+  .item-facebook-news-2 {
+    .photo {
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 10px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .facebook-author {
+      position: absolute;
+      padding: 15px;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.8);
+      background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(246, 246, 246, 0.19) 76%, rgba(0, 0, 0, 0) 100%);
+      background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.8)), color-stop(76%, rgba(246, 246, 246, 0.19)), color-stop(100%, rgba(0, 0, 0, 0)));
+      background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(246, 246, 246, 0.19) 76%, rgba(0, 0, 0, 0) 100%);
+      background: -o-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(246, 246, 246, 0.19) 76%, rgba(0, 0, 0, 0) 100%);
+      background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(246, 246, 246, 0.19) 76%, rgba(0, 0, 0, 0) 100%);
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(246, 246, 246, 0.19) 76%, rgba(0, 0, 0, 0) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000', GradientType=0);
+      color: #ffffff;
+      .facebook-icon {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        font-size: 21px;
+        line-height: 1;
+      }
+
+    }
+    .post {
+      .description {
+        font-size: 13px;
+        line-height: 17px;
+        height: 34px;
+        overflow: hidden;
+        margin-bottom: 10px;
+      }
+      .index {
+        > span {
+          margin-right: 25px;
+          > i {
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
+  &.grid-col-3 {
+    .item {
+      width: 33.33333333%;
+
+    }
+  }
+  &.grid-col-2 {
+    .item {
+      width: 50%;
+    }
+  }
+}
+
+.square-splash {
+  width: 3px;
+  height: 3px;
+  display: inline-block;
+  margin: 2px 6px;
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1090px;
+  }
+  .list-news {
+    .item-facebook-news-1 {
+      .photo {
+        height: 263px;
+      }
+    }
+  }
+}

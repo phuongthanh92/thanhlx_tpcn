@@ -5909,7 +5909,7 @@ p {
   color: #3db64d; }
 
 .text-primary {
-  color: #0277a4; }
+  color: #55a8de; }
 
 header {
   padding: 15px 0;
@@ -6051,8 +6051,8 @@ footer {
   width: 100%; }
 
 .btn-primary {
-  background: #0277a4;
-  border-color: #0277a4; }
+  background: #55a8de;
+  border-color: #55a8de; }
 
 nav.navbar .container {
   position: relative; }
@@ -6138,12 +6138,12 @@ nav.navbar .hot-line {
   padding-left: 0;
   font-weight: bold; }
   .breadcrumb a {
-    color: #0277a4; }
+    color: #55a8de; }
   .breadcrumb li {
     color: #a9a9a9; }
   .breadcrumb > li + li:before {
     content: ">";
-    color: #0277a4; }
+    color: #55a8de; }
 
 .tabs-sp {
   font-size: 14px;
@@ -6168,7 +6168,7 @@ nav.navbar .hot-line {
   .sp-text .green-text {
     color: #3db64d; }
   .sp-text .blue-text {
-    color: #0277a4; }
+    color: #55a8de; }
   .sp-text .gray-text {
     color: #a9a9a9; }
 
@@ -6185,7 +6185,7 @@ nav.navbar .hot-line {
     .title-page .filter-box .select {
       min-width: 65%; }
   .title-page .label {
-    color: #0277a4;
+    color: #55a8de;
     font-size: 16px; }
   @media screen and (max-width: 767px) {
     .title-page > .name {
@@ -6244,7 +6244,7 @@ nav.navbar .hot-line {
       padding-bottom: 10px;
       border-bottom: 1px solid #3db64d; }
     .box .box__title .blue-text, .footer-box .box__title .blue-text, .news-box .box__title .blue-text, .product-box .box__title .blue-text {
-      color: #0277a4;
+      color: #55a8de;
       padding-bottom: 10px; }
   .box .box__content, .footer-box .box__content, .news-box .box__content, .product-box .box__content {
     clear: both; }
@@ -6628,7 +6628,7 @@ nav.navbar .hot-line {
       background: url("../../images/check-icon.jpg") no-repeat left center; }
   .product-information .actions {
     padding: 20px;
-    background: #0277a4; }
+    background: #55a8de; }
     .product-information .actions .btn {
       -webkit-border-radius: 0;
       -moz-border-radius: 0;
