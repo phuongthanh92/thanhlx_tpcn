@@ -25,12 +25,16 @@
 <body>
 <div class="wrapper-pager-wrapper">
     <div class="header">
-        <div class="main-menu-media">
+        <div class="main-menu-media sm-device-up">
+            <div class="pull-left close-normal-menu"></div>
             <div class="pull-left logo">
-                <a href="#"><img src="images/logo.png" alt=""></a>
+                <a href="#">
+                    <img src="images/logo.png" alt="" class="normal-logo">
+                    <img src="images/logo-white.png" alt="" class="tablet-down-open">
+                </a>
             </div>
             <div class="pull-right">
-                <div class="another-menu "><i class="fa fa-bars"></i> </div>
+                <div class="another-menu"><i class="fa fa-bars"></i> </div>
                 <div class="search-box ">
                     <form action="">
                         <input type="text" placeholder="Tìm kiếm">
@@ -64,13 +68,13 @@
                     <a href="#" class="menu-title">Phổi <i class="fa fa-caret-down"></i> </a>
                 </li>
             </ul>
-            <div class="menu-another-news hidden">
+            <div class="menu-drop-down menu-another-news ">
                 <div class="close-button">
                 </div>
                 <div class="list-another">
                     <div class="container">
                         <ul class="list-inline">
-                            <li><a href="#">Béo phì</a></li>
+                            <li class="active"><a href="#">Béo phì</a></li>
                             <li><a href="#">Suy thận mãn</a></li>
                             <li><a href="#">Rạn da</a></li>
                             <li><a href="#">Mụn trứng cá</a></li>
@@ -78,6 +82,447 @@
                             <li><a href="#">Tỵ kỷ</a></li>
                             <li><a href="#">Tiểu đường</a></li>
                         </ul>
+                    </div>
+                </div>
+                <div class="content-list">
+                    <div class="container">
+                        <div class="row">
+                            <div class="menu-orientation-bar">
+                                <div class="title">
+                                    <i class="fa fa-globe"></i> &nbsp; Tin web
+                                </div>
+                                <div class="content">
+                                    <ul class="list-tabs">
+                                        <li class="tab active"><a href="#">Tổng quan</a></li>
+                                        <li class="tab"><a href="#">Cách điều trị</a></li>
+                                        <li class="tab"><a href="#">Phòng tránh</a></li>
+                                    </ul>
+                                    <div class="news-facebook-tab"><i class="fa fa-facebook-official"></i> Tin facebook</div>
+                                </div>
+                            </div>
+                            <div class="menu-orientation-content">
+                                <div class="menu-orientation-panel" id="menu1-tab1">
+                                    <div class="list-news list-normal-news grid-col-3 active">
+                                        <div class="item item-normal-news">
+                                            <div class="photo">
+                                                <img src="images/news-01.png" alt="">
+                                                <div class="type menu1">Máu nhiễm mỡ</div>
+                                            </div>
+                                            <div class="information">
+                                                <div class="title">Lợi ích sức khỏe của quả hồng giòn</div>
+                                                <div class="link">http://health.com</div>
+                                                <div class="description">
+                                                    Mùa hè nóng nực, mọi người nhất là trẻ em và người cao tuổi thường không muốn ăn mà chỉ uống nước.
+                                                </div>
+                                                <table class="index">
+                                                    <tr>
+                                                        <td class="text-left">
+                                                            <ul class="list-inline">
+                                                                <li><i class="fa fa-star"></i> </li>
+                                                                <li><i class="fa fa-star"></i> </li>
+                                                                <li><i class="fa fa-star-half-o"></i> </li>
+                                                                <li><i class="fa fa-star-o"></i> </li>
+                                                                <li><i class="fa fa-star-o"></i> </li>
+                                                            </ul>
+                                                        </td>
+                                                        <td class="text-right">
+                                                            <span><i class="fa fa-thumbs-up"></i> 212</span>
+                                                            <span class="square-splash"></span>
+                                                            <span><i class="fa fa-share"></i> 11</span>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="item item-normal-news">
+                                            <div class="photo">
+                                                <img src="images/news-01.png" alt="">
+                                                <div class="type menu3">Làm đẹp</div>
+                                            </div>
+                                            <div class="information">
+                                                <div class="title">Lợi ích sức khỏe của quả hồng giòn</div>
+                                                <div class="link">http://health.com</div>
+                                                <div class="description">
+                                                    Mùa hè nóng nực, mọi người nhất là trẻ em và người cao tuổi thường không muốn ăn mà chỉ uống nước.
+                                                </div>
+                                                <table class="index">
+                                                    <tr>
+                                                        <td>
+                                                            <ul class="list-inline">
+                                                                <li><i class="fa fa-star"></i> </li>
+                                                                <li><i class="fa fa-star"></i> </li>
+                                                                <li><i class="fa fa-star-half-o"></i> </li>
+                                                                <li><i class="fa fa-star-o"></i> </li>
+                                                                <li><i class="fa fa-star-o"></i> </li>
+                                                            </ul>
+                                                        </td>
+                                                        <td>
+                                                            <span><i class="fa fa-thumbs-up"></i> 212</span>
+                                                            <span class="square-splash"></span>
+                                                            <span><i class="fa fa-share"></i> 11</span>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="item item-normal-news">
+                                            <div class="photo">
+                                                <img src="images/news-01.png" alt="">
+                                                <div class="type menu1">Máu nhiễm mỡ</div>
+                                            </div>
+                                            <div class="information">
+                                                <div class="title">Lợi ích sức khỏe của quả hồng giòn</div>
+                                                <div class="link">http://health.com</div>
+                                                <div class="description">
+                                                    Mùa hè nóng nực, mọi người nhất là trẻ em và người cao tuổi thường không muốn ăn mà chỉ uống nước.
+                                                </div>
+                                                <table class="index">
+                                                    <tr>
+                                                        <td class="text-left">
+                                                            <ul class="list-inline">
+                                                                <li><i class="fa fa-star"></i> </li>
+                                                                <li><i class="fa fa-star"></i> </li>
+                                                                <li><i class="fa fa-star-half-o"></i> </li>
+                                                                <li><i class="fa fa-star-o"></i> </li>
+                                                                <li><i class="fa fa-star-o"></i> </li>
+                                                            </ul>
+                                                        </td>
+                                                        <td class="text-right">
+                                                            <span><i class="fa fa-thumbs-up"></i> 212</span>
+                                                            <span class="square-splash"></span>
+                                                            <span><i class="fa fa-share"></i> 11</span>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="item item-normal-news">
+                                            <div class="photo">
+                                                <img src="images/news-01.png" alt="">
+                                                <div class="type menu3">Làm đẹp</div>
+                                            </div>
+                                            <div class="information">
+                                                <div class="title">Lợi ích sức khỏe của quả hồng giòn</div>
+                                                <div class="link">http://health.com</div>
+                                                <div class="description">
+                                                    Mùa hè nóng nực, mọi người nhất là trẻ em và người cao tuổi thường không muốn ăn mà chỉ uống nước.
+                                                </div>
+                                                <table class="index">
+                                                    <tr>
+                                                        <td>
+                                                            <ul class="list-inline">
+                                                                <li><i class="fa fa-star"></i> </li>
+                                                                <li><i class="fa fa-star"></i> </li>
+                                                                <li><i class="fa fa-star-half-o"></i> </li>
+                                                                <li><i class="fa fa-star-o"></i> </li>
+                                                                <li><i class="fa fa-star-o"></i> </li>
+                                                            </ul>
+                                                        </td>
+                                                        <td>
+                                                            <span><i class="fa fa-thumbs-up"></i> 212</span>
+                                                            <span class="square-splash"></span>
+                                                            <span><i class="fa fa-share"></i> 11</span>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="item item-normal-news">
+                                            <div class="photo">
+                                                <img src="images/news-01.png" alt="">
+                                                <div class="type menu1">Máu nhiễm mỡ</div>
+                                            </div>
+                                            <div class="information">
+                                                <div class="title">Lợi ích sức khỏe của quả hồng giòn</div>
+                                                <div class="link">http://health.com</div>
+                                                <div class="description">
+                                                    Mùa hè nóng nực, mọi người nhất là trẻ em và người cao tuổi thường không muốn ăn mà chỉ uống nước.
+                                                </div>
+                                                <table class="index">
+                                                    <tr>
+                                                        <td class="text-left">
+                                                            <ul class="list-inline">
+                                                                <li><i class="fa fa-star"></i> </li>
+                                                                <li><i class="fa fa-star"></i> </li>
+                                                                <li><i class="fa fa-star-half-o"></i> </li>
+                                                                <li><i class="fa fa-star-o"></i> </li>
+                                                                <li><i class="fa fa-star-o"></i> </li>
+                                                            </ul>
+                                                        </td>
+                                                        <td class="text-right">
+                                                            <span><i class="fa fa-thumbs-up"></i> 212</span>
+                                                            <span class="square-splash"></span>
+                                                            <span><i class="fa fa-share"></i> 11</span>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="item item-normal-news">
+                                            <div class="photo">
+                                                <img src="images/news-01.png" alt="">
+                                                <div class="type menu3">Làm đẹp</div>
+                                            </div>
+                                            <div class="information">
+                                                <div class="title">Lợi ích sức khỏe của quả hồng giòn</div>
+                                                <div class="link">http://health.com</div>
+                                                <div class="description">
+                                                    Mùa hè nóng nực, mọi người nhất là trẻ em và người cao tuổi thường không muốn ăn mà chỉ uống nước.
+                                                </div>
+                                                <table class="index">
+                                                    <tr>
+                                                        <td>
+                                                            <ul class="list-inline">
+                                                                <li><i class="fa fa-star"></i> </li>
+                                                                <li><i class="fa fa-star"></i> </li>
+                                                                <li><i class="fa fa-star-half-o"></i> </li>
+                                                                <li><i class="fa fa-star-o"></i> </li>
+                                                                <li><i class="fa fa-star-o"></i> </li>
+                                                            </ul>
+                                                        </td>
+                                                        <td>
+                                                            <span><i class="fa fa-thumbs-up"></i> 212</span>
+                                                            <span class="square-splash"></span>
+                                                            <span><i class="fa fa-share"></i> 11</span>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="list-news list-facebook-news grid-col-2 only-desktop">
+                                        <div class="item item-facebook-news-1">
+                                            <div class="photo">
+                                                <img src="images/news-facebook.png" alt="">
+                                                <div class="facebook-author">
+                                                    <div class="avatar">
+                                                        <img src="images/avatar-facebook.png" alt="">
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="name">Sức khỏe đời sống</div>
+                                                        <div class="time">Khoảng 4 năm trước</div>
+                                                    </div>
+                                                    <div class="facebook-icon">
+                                                        <i class="fa fa-facebook-official"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="post">
+                                                    <div class="title">Công dụng của tỏi đen</div>
+                                                    <div class="description">Mùa hè nóng nực, mọi người nhất là trẻ em và người cao tuổi thường không muốn ăn mà chỉ uống nước.</div>
+                                                    <div class="index">
+                                                        <span><i class="fa fa-thumbs-up"></i> 212</span>
+                                                        <span><i class="fa fa-comment"></i> 212</span>
+                                                        <span><i class="fa fa-share"></i> 11</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item item-facebook-news-1">
+                                            <div class="photo">
+                                                <img src="images/news-facebook.png" alt="">
+                                                <div class="facebook-author">
+                                                    <div class="avatar">
+                                                        <img src="images/avatar-facebook.png" alt="">
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="name">Sức khỏe đời sống</div>
+                                                        <div class="time">Khoảng 4 năm trước</div>
+                                                    </div>
+                                                    <div class="facebook-icon">
+                                                        <i class="fa fa-facebook-official"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="post">
+                                                    <div class="title">Công dụng của tỏi đen</div>
+                                                    <div class="description">Mùa hè nóng nực, mọi người nhất là trẻ em và người cao tuổi thường không muốn ăn mà chỉ uống nước.</div>
+                                                    <div class="index">
+                                                        <span><i class="fa fa-thumbs-up"></i> 212</span>
+                                                        <span><i class="fa fa-comment"></i> 212</span>
+                                                        <span><i class="fa fa-share"></i> 11</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="list-news list-facebook-news grid-col-3 tablet-down">
+                                        <div class="item item-facebook-news-3">
+                                            <div class="photo">
+                                                <img src="images/news-facebook.png" alt="">
+                                                <div class="type menu1">Máu nhiễm mỡ</div>
+                                            </div>
+                                            <div class="facebook-author">
+                                                <div class="avatar">
+                                                    <img src="images/avatar-facebook.png" alt="">
+                                                </div>
+                                                <div class="info">
+                                                    <div class="name">Sức khỏe đời sống</div>
+                                                    <div class="time">Khoảng 4 năm trước</div>
+                                                </div>
+                                                <div class="facebook-icon">
+                                                    <i class="fa fa-facebook-official"></i>
+                                                </div>
+                                            </div>
+                                            <div class="post">
+                                                <div class="title">5 mẹo hay xóa mờ môi thâm</div>
+                                                <div class="description">Mùa hè nóng nực, mọi người nhất là trẻ em và người cao tuổi thường không muốn ăn mà chỉ uống nước.</div>
+
+                                            </div>
+                                            <div class="index">
+                                                <span><i class="fa fa-thumbs-up"></i> 212</span>
+                                                <span><i class="fa fa-comment"></i> 212</span>
+                                                <span><i class="fa fa-share"></i> 11</span>
+                                            </div>
+                                        </div>
+                                        <div class="item item-facebook-news-2">
+                                            <div class="photo">
+                                                <img src="images/news-facebook.png" alt="">
+                                                <div class="type menu1">Máu nhiễm mỡ</div>
+                                                <div class="facebook-author">
+                                                    <div class="avatar">
+                                                        <img src="images/avatar-facebook.png" alt="">
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="name">Sức khỏe đời sống</div>
+                                                        <div class="time">Khoảng 4 năm trước</div>
+                                                    </div>
+                                                    <div class="facebook-icon">
+                                                        <i class="fa fa-facebook-official"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="post">
+                                                <div class="title">5 mẹo hay xóa mờ môi thâm</div>
+                                                <div class="description">Mùa hè nóng nực, mọi người nhất là trẻ em và người cao tuổi thường không muốn ăn mà chỉ uống nước.Mùa hè nóng nực, mọi người nhất là trẻ em và người cao tuổi thường không muốn ăn mà chỉ uống nước.</div>
+
+                                            </div>
+                                            <div class="index">
+                                                <span><i class="fa fa-thumbs-up"></i> 212</span>
+                                                <span><i class="fa fa-comment"></i> 212</span>
+                                                <span><i class="fa fa-share"></i> 11</span>
+                                            </div>
+                                        </div>
+                                        <div class="item item-facebook-news-4">
+                                            <div class="facebook-author">
+                                                <div class="avatar">
+                                                    <img src="images/avatar-facebook.png" alt="">
+                                                </div>
+                                                <div class="info">
+                                                    <div class="name">Sức khỏe đời sống</div>
+                                                    <div class="time">Khoảng 4 năm trước</div>
+                                                </div>
+                                                <div class="facebook-icon">
+                                                    <i class="fa fa-facebook-official"></i>
+                                                </div>
+                                            </div>
+                                            <div class="post">
+                                                <div class="description">Mùa hè nóng nực, mọi người nhất là trẻ em và người cao tuổi thường không muốn ăn mà chỉ uống nước.</div>
+                                            </div>
+                                            <div class="photo">
+                                                <img src="images/news-facebook.png" alt="">
+                                                <div class="type menu1">Máu nhiễm mỡ</div>
+                                            </div>
+                                            <div class="post">
+                                                <div class="title">5 mẹo hay xóa mờ môi thâm</div>
+                                            </div>
+                                            <div class="link text-uppercase">http://health.com</div>
+                                            <div class="index">
+                                                <span><i class="fa fa-thumbs-up"></i> 212</span>
+                                                <span><i class="fa fa-comment"></i> 212</span>
+                                                <span><i class="fa fa-share"></i> 11</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="item item-facebook-news-3">
+                                            <div class="photo">
+                                                <img src="images/news-facebook.png" alt="">
+                                                <div class="type menu1">Máu nhiễm mỡ</div>
+                                            </div>
+                                            <div class="facebook-author">
+                                                <div class="avatar">
+                                                    <img src="images/avatar-facebook.png" alt="">
+                                                </div>
+                                                <div class="info">
+                                                    <div class="name">Sức khỏe đời sống</div>
+                                                    <div class="time">Khoảng 4 năm trước</div>
+                                                </div>
+                                                <div class="facebook-icon">
+                                                    <i class="fa fa-facebook-official"></i>
+                                                </div>
+                                            </div>
+                                            <div class="post">
+                                                <div class="title">5 mẹo hay xóa mờ môi thâm</div>
+                                                <div class="description">Mùa hè nóng nực, mọi người nhất là trẻ em và người cao tuổi thường không muốn ăn mà chỉ uống nước.</div>
+
+                                            </div>
+                                            <div class="index">
+                                                <span><i class="fa fa-thumbs-up"></i> 212</span>
+                                                <span><i class="fa fa-comment"></i> 212</span>
+                                                <span><i class="fa fa-share"></i> 11</span>
+                                            </div>
+                                        </div>
+                                        <div class="item item-facebook-news-2">
+                                            <div class="photo">
+                                                <img src="images/news-facebook.png" alt="">
+                                                <div class="type menu1">Máu nhiễm mỡ</div>
+                                                <div class="facebook-author">
+                                                    <div class="avatar">
+                                                        <img src="images/avatar-facebook.png" alt="">
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="name">Sức khỏe đời sống</div>
+                                                        <div class="time">Khoảng 4 năm trước</div>
+                                                    </div>
+                                                    <div class="facebook-icon">
+                                                        <i class="fa fa-facebook-official"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="post">
+                                                <div class="title">5 mẹo hay xóa mờ môi thâm</div>
+                                                <div class="description">Mùa hè nóng nực, mọi người nhất là trẻ em và người cao tuổi thường không muốn ăn mà chỉ uống nước.Mùa hè nóng nực, mọi người nhất là trẻ em và người cao tuổi thường không muốn ăn mà chỉ uống nước.</div>
+
+                                            </div>
+                                            <div class="index">
+                                                <span><i class="fa fa-thumbs-up"></i> 212</span>
+                                                <span><i class="fa fa-comment"></i> 212</span>
+                                                <span><i class="fa fa-share"></i> 11</span>
+                                            </div>
+                                        </div>
+                                        <div class="item item-facebook-news-4">
+                                            <div class="facebook-author">
+                                                <div class="avatar">
+                                                    <img src="images/avatar-facebook.png" alt="">
+                                                </div>
+                                                <div class="info">
+                                                    <div class="name">Sức khỏe đời sống</div>
+                                                    <div class="time">Khoảng 4 năm trước</div>
+                                                </div>
+                                                <div class="facebook-icon">
+                                                    <i class="fa fa-facebook-official"></i>
+                                                </div>
+                                            </div>
+                                            <div class="post">
+                                                <div class="description">Mùa hè nóng nực, mọi người nhất là trẻ em và người cao tuổi thường không muốn ăn mà chỉ uống nước.</div>
+                                            </div>
+                                            <div class="photo">
+                                                <img src="images/news-facebook.png" alt="">
+                                                <div class="type menu1">Máu nhiễm mỡ</div>
+                                            </div>
+                                            <div class="post">
+                                                <div class="title">5 mẹo hay xóa mờ môi thâm</div>
+                                            </div>
+                                            <div class="link text-uppercase">http://health.com</div>
+                                            <div class="index">
+                                                <span><i class="fa fa-thumbs-up"></i> 212</span>
+                                                <span><i class="fa fa-comment"></i> 212</span>
+                                                <span><i class="fa fa-share"></i> 11</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -99,7 +544,7 @@
                         </div>
                         <div class="menu-orientation-content">
                             <div class="menu-orientation-panel" id="menu1-tab1">
-                                <div class="list-news grid-col-3 hidden">
+                                <div class="list-news list-normal-news grid-col-3 active">
                                     <div class="item item-normal-news">
                                         <div class="photo">
                                             <img src="images/news-01.png" alt="">
@@ -287,13 +732,13 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="list-news list-facebook-news grid-col-2">
+                                <div class="list-news list-facebook-news grid-col-2 only-desktop">
                                     <div class="item item-facebook-news-1">
                                         <div class="photo">
                                             <img src="images/news-facebook.png" alt="">
                                             <div class="facebook-author">
                                                 <div class="avatar">
-                                                    <img src="" alt="">
+                                                    <img src="images/avatar-facebook.png" alt="">
                                                 </div>
                                                 <div class="info">
                                                     <div class="name">Sức khỏe đời sống</div>
@@ -304,18 +749,487 @@
                                                 </div>
                                             </div>
                                             <div class="post">
-                                                <div class="name">Công dụng của tỏi đen</div>
+                                                <div class="title">Công dụng của tỏi đen</div>
                                                 <div class="description">Mùa hè nóng nực, mọi người nhất là trẻ em và người cao tuổi thường không muốn ăn mà chỉ uống nước.</div>
-                                                <table class="index">
-                                                    <tr>
-                                                        <td>
-                                                            <span><i class="fa fa-thumbs-up"></i> 212</span>
-                                                            <span><i class="fa fa-comment"></i> 212</span>
-                                                            <span><i class="fa fa-share"></i> 11</span>
-                                                        </td>
-                                                    </tr>
-                                                </table>
+                                                <div class="index">
+                                                    <span><i class="fa fa-thumbs-up"></i> 212</span>
+                                                    <span><i class="fa fa-comment"></i> 212</span>
+                                                    <span><i class="fa fa-share"></i> 11</span>
+                                                </div>
                                             </div>
+                                        </div>
+                                    </div>
+                                    <div class="item item-facebook-news-1">
+                                        <div class="photo">
+                                            <img src="images/news-facebook.png" alt="">
+                                            <div class="facebook-author">
+                                                <div class="avatar">
+                                                    <img src="images/avatar-facebook.png" alt="">
+                                                </div>
+                                                <div class="info">
+                                                    <div class="name">Sức khỏe đời sống</div>
+                                                    <div class="time">Khoảng 4 năm trước</div>
+                                                </div>
+                                                <div class="facebook-icon">
+                                                    <i class="fa fa-facebook-official"></i>
+                                                </div>
+                                            </div>
+                                            <div class="post">
+                                                <div class="title">Công dụng của tỏi đen</div>
+                                                <div class="description">Mùa hè nóng nực, mọi người nhất là trẻ em và người cao tuổi thường không muốn ăn mà chỉ uống nước.</div>
+                                                <div class="index">
+                                                    <span><i class="fa fa-thumbs-up"></i> 212</span>
+                                                    <span><i class="fa fa-comment"></i> 212</span>
+                                                    <span><i class="fa fa-share"></i> 11</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="list-news list-facebook-news grid-col-3 tablet-down">
+                                    <div class="item item-facebook-news-3">
+                                        <div class="photo">
+                                            <img src="images/news-facebook.png" alt="">
+                                            <div class="type menu1">Máu nhiễm mỡ</div>
+                                        </div>
+                                        <div class="facebook-author">
+                                            <div class="avatar">
+                                                <img src="images/avatar-facebook.png" alt="">
+                                            </div>
+                                            <div class="info">
+                                                <div class="name">Sức khỏe đời sống</div>
+                                                <div class="time">Khoảng 4 năm trước</div>
+                                            </div>
+                                            <div class="facebook-icon">
+                                                <i class="fa fa-facebook-official"></i>
+                                            </div>
+                                        </div>
+                                        <div class="post">
+                                            <div class="title">5 mẹo hay xóa mờ môi thâm</div>
+                                            <div class="description">Mùa hè nóng nực, mọi người nhất là trẻ em và người cao tuổi thường không muốn ăn mà chỉ uống nước.</div>
+
+                                        </div>
+                                        <div class="index">
+                                            <span><i class="fa fa-thumbs-up"></i> 212</span>
+                                            <span><i class="fa fa-comment"></i> 212</span>
+                                            <span><i class="fa fa-share"></i> 11</span>
+                                        </div>
+                                    </div>
+                                    <div class="item item-facebook-news-2">
+                                        <div class="photo">
+                                            <img src="images/news-facebook.png" alt="">
+                                            <div class="type menu1">Máu nhiễm mỡ</div>
+                                            <div class="facebook-author">
+                                                <div class="avatar">
+                                                    <img src="images/avatar-facebook.png" alt="">
+                                                </div>
+                                                <div class="info">
+                                                    <div class="name">Sức khỏe đời sống</div>
+                                                    <div class="time">Khoảng 4 năm trước</div>
+                                                </div>
+                                                <div class="facebook-icon">
+                                                    <i class="fa fa-facebook-official"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="post">
+                                            <div class="title">5 mẹo hay xóa mờ môi thâm</div>
+                                            <div class="description">Mùa hè nóng nực, mọi người nhất là trẻ em và người cao tuổi thường không muốn ăn mà chỉ uống nước.Mùa hè nóng nực, mọi người nhất là trẻ em và người cao tuổi thường không muốn ăn mà chỉ uống nước.</div>
+
+                                        </div>
+                                        <div class="index">
+                                            <span><i class="fa fa-thumbs-up"></i> 212</span>
+                                            <span><i class="fa fa-comment"></i> 212</span>
+                                            <span><i class="fa fa-share"></i> 11</span>
+                                        </div>
+                                    </div>
+                                    <div class="item item-facebook-news-4">
+                                        <div class="facebook-author">
+                                            <div class="avatar">
+                                                <img src="images/avatar-facebook.png" alt="">
+                                            </div>
+                                            <div class="info">
+                                                <div class="name">Sức khỏe đời sống</div>
+                                                <div class="time">Khoảng 4 năm trước</div>
+                                            </div>
+                                            <div class="facebook-icon">
+                                                <i class="fa fa-facebook-official"></i>
+                                            </div>
+                                        </div>
+                                        <div class="post">
+                                            <div class="description">Mùa hè nóng nực, mọi người nhất là trẻ em và người cao tuổi thường không muốn ăn mà chỉ uống nước.</div>
+                                        </div>
+                                        <div class="photo">
+                                            <img src="images/news-facebook.png" alt="">
+                                            <div class="type menu1">Máu nhiễm mỡ</div>
+                                        </div>
+                                        <div class="post">
+                                            <div class="title">5 mẹo hay xóa mờ môi thâm</div>
+                                        </div>
+                                        <div class="link text-uppercase">http://health.com</div>
+                                        <div class="index">
+                                            <span><i class="fa fa-thumbs-up"></i> 212</span>
+                                            <span><i class="fa fa-comment"></i> 212</span>
+                                            <span><i class="fa fa-share"></i> 11</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="item item-facebook-news-3">
+                                        <div class="photo">
+                                            <img src="images/news-facebook.png" alt="">
+                                            <div class="type menu1">Máu nhiễm mỡ</div>
+                                        </div>
+                                        <div class="facebook-author">
+                                            <div class="avatar">
+                                                <img src="images/avatar-facebook.png" alt="">
+                                            </div>
+                                            <div class="info">
+                                                <div class="name">Sức khỏe đời sống</div>
+                                                <div class="time">Khoảng 4 năm trước</div>
+                                            </div>
+                                            <div class="facebook-icon">
+                                                <i class="fa fa-facebook-official"></i>
+                                            </div>
+                                        </div>
+                                        <div class="post">
+                                            <div class="title">5 mẹo hay xóa mờ môi thâm</div>
+                                            <div class="description">Mùa hè nóng nực, mọi người nhất là trẻ em và người cao tuổi thường không muốn ăn mà chỉ uống nước.</div>
+
+                                        </div>
+                                        <div class="index">
+                                            <span><i class="fa fa-thumbs-up"></i> 212</span>
+                                            <span><i class="fa fa-comment"></i> 212</span>
+                                            <span><i class="fa fa-share"></i> 11</span>
+                                        </div>
+                                    </div>
+                                    <div class="item item-facebook-news-2">
+                                        <div class="photo">
+                                            <img src="images/news-facebook.png" alt="">
+                                            <div class="type menu1">Máu nhiễm mỡ</div>
+                                            <div class="facebook-author">
+                                                <div class="avatar">
+                                                    <img src="images/avatar-facebook.png" alt="">
+                                                </div>
+                                                <div class="info">
+                                                    <div class="name">Sức khỏe đời sống</div>
+                                                    <div class="time">Khoảng 4 năm trước</div>
+                                                </div>
+                                                <div class="facebook-icon">
+                                                    <i class="fa fa-facebook-official"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="post">
+                                            <div class="title">5 mẹo hay xóa mờ môi thâm</div>
+                                            <div class="description">Mùa hè nóng nực, mọi người nhất là trẻ em và người cao tuổi thường không muốn ăn mà chỉ uống nước.Mùa hè nóng nực, mọi người nhất là trẻ em và người cao tuổi thường không muốn ăn mà chỉ uống nước.</div>
+
+                                        </div>
+                                        <div class="index">
+                                            <span><i class="fa fa-thumbs-up"></i> 212</span>
+                                            <span><i class="fa fa-comment"></i> 212</span>
+                                            <span><i class="fa fa-share"></i> 11</span>
+                                        </div>
+                                    </div>
+                                    <div class="item item-facebook-news-4">
+                                        <div class="facebook-author">
+                                            <div class="avatar">
+                                                <img src="images/avatar-facebook.png" alt="">
+                                            </div>
+                                            <div class="info">
+                                                <div class="name">Sức khỏe đời sống</div>
+                                                <div class="time">Khoảng 4 năm trước</div>
+                                            </div>
+                                            <div class="facebook-icon">
+                                                <i class="fa fa-facebook-official"></i>
+                                            </div>
+                                        </div>
+                                        <div class="post">
+                                            <div class="description">Mùa hè nóng nực, mọi người nhất là trẻ em và người cao tuổi thường không muốn ăn mà chỉ uống nước.</div>
+                                        </div>
+                                        <div class="photo">
+                                            <img src="images/news-facebook.png" alt="">
+                                            <div class="type menu1">Máu nhiễm mỡ</div>
+                                        </div>
+                                        <div class="post">
+                                            <div class="title">5 mẹo hay xóa mờ môi thâm</div>
+                                        </div>
+                                        <div class="link text-uppercase">http://health.com</div>
+                                        <div class="index">
+                                            <span><i class="fa fa-thumbs-up"></i> 212</span>
+                                            <span><i class="fa fa-comment"></i> 212</span>
+                                            <span><i class="fa fa-share"></i> 11</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-mobile">
+            <div class="top-content">
+                <div class="menu-toggle">
+                    <div class="another-menu"><i class="fa fa-bars"></i> </div>
+                </div>
+                <div class="logo">
+                    <a href="#">
+                        <img src="images/logo.png" alt="" class="normal-logo">
+                    </a>
+                </div>
+                <div class="search-box ">
+                    <form action="">
+                        <input type="text" placeholder="Tìm kiếm">
+                        <button type="submit"></button>
+                    </form>
+                </div>
+            </div>
+            <div class="sidebar-menu">
+                <div class="tab-list" id="menu-tab-list">
+                    <div role="presentation" class="tab active">
+                        <a href="#normal-news-menu" aria-controls="normal-news-menu" role="tab" data-toggle="tab">
+                            <i class="fa fa-globe"></i> Tin web
+                        </a>
+                    </div>
+                    <div role="presentation" class="tab">
+                        <a href="#facebook-news-menu" aria-controls="facebook-news-menu" role="tab" data-toggle="tab">
+                            <i class="fa fa-facebook-official"></i> Tin Facebook
+                        </a>
+                    </div>
+
+                </div>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="normal-news-menu">
+                        <ul class="list-menu-item">
+                            <li class="active"><a href="#">Đột quỵ</a></li>
+                            <li><a href="#">Đột quỵ</a></li>
+                            <li><a href="#">Đột quỵ</a></li>
+                            <li><a href="#">Đột quỵ</a></li>
+                            <li><a href="#">Đột quỵ</a></li>
+                            <li><a href="#">Đột quỵ</a></li>
+                            <li><a href="#">Đột quỵ</a></li>
+                            <li><a href="#">Đột quỵ</a></li>
+                            <li><a href="#">Đột quỵ</a></li>
+                            <li><a href="#">Đột quỵ</a></li>
+                            <li><a href="#">Đột quỵ</a></li>
+                            <li><a href="#">Đột quỵ</a></li>
+                            <li><a href="#">Đột quỵ</a></li>
+                            <li><a href="#">Đột quỵ</a></li>
+                            <li><a href="#">Đột quỵ</a></li>
+                            <li><a href="#">Đột quỵ</a></li>
+                        </ul>
+                        <div class="list-news-box">
+                            <div class="title-box">Tin mới nhất</div>
+                            <div class="content-box">
+                                <div class="list-news">
+                                    <div class="item item-normal-news">
+                                        <div class="photo">
+                                            <img src="images/news-01.png" alt="">
+                                            <div class="type menu1">Máu nhiễm mỡ</div>
+                                        </div>
+                                        <div class="information">
+                                            <div class="title">Lợi ích sức khỏe của quả hồng giòn</div>
+                                            <div class="link">http://health.com</div>
+                                            <div class="description">
+                                                Mùa hè nóng nực, mọi người nhất là trẻ em và người cao tuổi thường không muốn ăn mà chỉ uống
+                                                nước.
+                                            </div>
+                                            <table class="index">
+                                                <tr>
+                                                    <td class="text-left">
+                                                        <ul class="list-inline">
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star-half-o"></i></li>
+                                                            <li><i class="fa fa-star-o"></i></li>
+                                                            <li><i class="fa fa-star-o"></i></li>
+                                                        </ul>
+                                                    </td>
+                                                    <td class="text-right">
+                                                        <span><i class="fa fa-thumbs-up"></i> 212</span>
+                                                        <span class="square-splash"></span>
+                                                        <span><i class="fa fa-share"></i> 11</span>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="item item-normal-news">
+                                        <div class="photo">
+                                            <img src="images/news-01.png" alt="">
+                                            <div class="type menu1">Máu nhiễm mỡ</div>
+                                        </div>
+                                        <div class="information">
+                                            <div class="title">Lợi ích sức khỏe của quả hồng giòn</div>
+                                            <div class="link">http://health.com</div>
+                                            <div class="description">
+                                                Mùa hè nóng nực, mọi người nhất là trẻ em và người cao tuổi thường không muốn ăn mà chỉ uống
+                                                nước.
+                                            </div>
+                                            <table class="index">
+                                                <tr>
+                                                    <td class="text-left">
+                                                        <ul class="list-inline">
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star-half-o"></i></li>
+                                                            <li><i class="fa fa-star-o"></i></li>
+                                                            <li><i class="fa fa-star-o"></i></li>
+                                                        </ul>
+                                                    </td>
+                                                    <td class="text-right">
+                                                        <span><i class="fa fa-thumbs-up"></i> 212</span>
+                                                        <span class="square-splash"></span>
+                                                        <span><i class="fa fa-share"></i> 11</span>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="item item-normal-news">
+                                        <div class="photo">
+                                            <img src="images/news-01.png" alt="">
+                                            <div class="type menu1">Máu nhiễm mỡ</div>
+                                        </div>
+                                        <div class="information">
+                                            <div class="title">Lợi ích sức khỏe của quả hồng giòn</div>
+                                            <div class="link">http://health.com</div>
+                                            <div class="description">
+                                                Mùa hè nóng nực, mọi người nhất là trẻ em và người cao tuổi thường không muốn ăn mà chỉ uống
+                                                nước.
+                                            </div>
+                                            <table class="index">
+                                                <tr>
+                                                    <td class="text-left">
+                                                        <ul class="list-inline">
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star-half-o"></i></li>
+                                                            <li><i class="fa fa-star-o"></i></li>
+                                                            <li><i class="fa fa-star-o"></i></li>
+                                                        </ul>
+                                                    </td>
+                                                    <td class="text-right">
+                                                        <span><i class="fa fa-thumbs-up"></i> 212</span>
+                                                        <span class="square-splash"></span>
+                                                        <span><i class="fa fa-share"></i> 11</span>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="facebook-news-menu">
+                        <ul class="list-menu-item">
+                            <li class="active"><a href="#">Đột quỵ</a></li>
+                            <li><a href="#">Đột quỵ</a></li>
+                            <li><a href="#">Đột quỵ</a></li>
+                            <li><a href="#">Đột quỵ</a></li>
+                            <li><a href="#">Đột quỵ</a></li>
+                            <li><a href="#">Đột quỵ</a></li>
+                            <li><a href="#">Đột quỵ</a></li>
+                            <li><a href="#">Đột quỵ</a></li>
+                            <li><a href="#">Đột quỵ</a></li>
+                            <li><a href="#">Đột quỵ</a></li>
+                            <li><a href="#">Đột quỵ</a></li>
+                            <li><a href="#">Đột quỵ</a></li>
+                            <li><a href="#">Đột quỵ</a></li>
+                            <li><a href="#">Đột quỵ</a></li>
+                            <li><a href="#">Đột quỵ</a></li>
+                            <li><a href="#">Đột quỵ</a></li>
+                        </ul>
+                        <div class="list-news-box">
+                            <div class="title-box">Tin mới nhất</div>
+                            <div class="content-box">
+                                <div class="list-news">
+                                    <div class="item item-facebook-news-3">
+                                        <div class="photo">
+                                            <img src="images/news-facebook.png" alt="">
+                                            <div class="type menu1">Máu nhiễm mỡ</div>
+                                        </div>
+                                        <div class="facebook-author">
+                                            <div class="avatar">
+                                                <img src="images/avatar-facebook.png" alt="">
+                                            </div>
+                                            <div class="info">
+                                                <div class="name">Sức khỏe đời sống</div>
+                                                <div class="time">Khoảng 4 năm trước</div>
+                                            </div>
+                                            <div class="facebook-icon">
+                                                <i class="fa fa-facebook-official"></i>
+                                            </div>
+                                        </div>
+                                        <div class="post">
+                                            <div class="title">5 mẹo hay xóa mờ môi thâm</div>
+                                            <div class="description">Mùa hè nóng nực, mọi người nhất là trẻ em và người cao tuổi thường không muốn ăn mà chỉ uống nước.</div>
+
+                                        </div>
+                                        <div class="index">
+                                            <span><i class="fa fa-thumbs-up"></i> 212</span>
+                                            <span><i class="fa fa-comment"></i> 212</span>
+                                            <span><i class="fa fa-share"></i> 11</span>
+                                        </div>
+                                    </div>
+                                    <div class="item item-facebook-news-2">
+                                        <div class="photo">
+                                            <img src="images/news-facebook.png" alt="">
+                                            <div class="type menu1">Máu nhiễm mỡ</div>
+                                            <div class="facebook-author">
+                                                <div class="avatar">
+                                                    <img src="images/avatar-facebook.png" alt="">
+                                                </div>
+                                                <div class="info">
+                                                    <div class="name">Sức khỏe đời sống</div>
+                                                    <div class="time">Khoảng 4 năm trước</div>
+                                                </div>
+                                                <div class="facebook-icon">
+                                                    <i class="fa fa-facebook-official"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="post">
+                                            <div class="title">5 mẹo hay xóa mờ môi thâm</div>
+                                            <div class="description">Mùa hè nóng nực, mọi người nhất là trẻ em và người cao tuổi thường không muốn ăn mà chỉ uống nước.Mùa hè nóng nực, mọi người nhất là trẻ em và người cao tuổi thường không muốn ăn mà chỉ uống nước.</div>
+
+                                        </div>
+                                        <div class="index">
+                                            <span><i class="fa fa-thumbs-up"></i> 212</span>
+                                            <span><i class="fa fa-comment"></i> 212</span>
+                                            <span><i class="fa fa-share"></i> 11</span>
+                                        </div>
+                                    </div>
+                                    <div class="item item-facebook-news-4">
+                                        <div class="facebook-author">
+                                            <div class="avatar">
+                                                <img src="images/avatar-facebook.png" alt="">
+                                            </div>
+                                            <div class="info">
+                                                <div class="name">Sức khỏe đời sống</div>
+                                                <div class="time">Khoảng 4 năm trước</div>
+                                            </div>
+                                            <div class="facebook-icon">
+                                                <i class="fa fa-facebook-official"></i>
+                                            </div>
+                                        </div>
+                                        <div class="post">
+                                            <div class="description">Mùa hè nóng nực, mọi người nhất là trẻ em và người cao tuổi thường không muốn ăn mà chỉ uống nước.</div>
+                                        </div>
+                                        <div class="photo">
+                                            <img src="images/news-facebook.png" alt="">
+                                            <div class="type menu1">Máu nhiễm mỡ</div>
+                                        </div>
+                                        <div class="post">
+                                            <div class="title">5 mẹo hay xóa mờ môi thâm</div>
+                                        </div>
+                                        <div class="link text-uppercase">http://health.com</div>
+                                        <div class="index">
+                                            <span><i class="fa fa-thumbs-up"></i> 212</span>
+                                            <span><i class="fa fa-comment"></i> 212</span>
+                                            <span><i class="fa fa-share"></i> 11</span>
                                         </div>
 
                                     </div>
@@ -327,7 +1241,78 @@
             </div>
         </div>
     </div>
-    <div class="wrapper-main-content"></div>
+    <div class="main-banner">
+        <h1 class="lg-text">TRANG TỔNG HỢP THÔNG TIN Y KHOA CHẤT LƯỢNG CAO </h1>
+        <h2 class="md-text">Chuyên trang dành riêng cho những độc giả thực sự coi trọng sức khỏe</h2>
+        <div class="like-button"></div>
+    </div>
+    <div class="wrapper-main-content">
+        <div class="list-featured-news">
+            <div class="container">
+                <div class="list-news  grid-col-2">
+                    <div class="item item-normal-news">
+                        <div class="photo">
+                            <img src="images/featured-news.png" alt="">
+                            <div class="type menu1">Máu nhiễm mỡ</div>
+                        </div>
+                        <div class="information">
+                            <div class="title">Lợi ích sức khỏe của quả hồng giòn</div>
+                            <div class="link">http://health.com</div>
+                            <div class="description">
+                                Mùa hè nóng nực, mọi người nhất là trẻ em và người cao tuổi thường không muốn ăn mà chỉ uống nước. Những món ăn tốt cho sức khỏe trong đó có các món canh bổ, mát dễ làm giúp cả nhà ngon miệng
+                            </div>
+                            <table class="index">
+                                <tr>
+                                    <td class="text-left">
+                                        <ul class="list-inline">
+                                            <li><i class="fa fa-star"></i></li>
+                                            <li><i class="fa fa-star"></i></li>
+                                            <li><i class="fa fa-star-half-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                        </ul>
+                                    </td>
+                                    <td class="text-right">
+                                        <span><i class="fa fa-thumbs-up"></i> 212</span>
+                                        <span class="square-splash"></span>
+                                        <span><i class="fa fa-share"></i> 11</span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="item item-facebook-news-2">
+                        <div class="photo">
+                            <img src="images/featured-news.png" alt="">
+                            <div class="type menu1">Máu nhiễm mỡ</div>
+                            <div class="facebook-author">
+                                <div class="avatar">
+                                    <img src="images/avatar-facebook.png" alt="">
+                                </div>
+                                <div class="info">
+                                    <div class="name">Sức khỏe đời sống</div>
+                                    <div class="time">Khoảng 4 năm trước</div>
+                                </div>
+                                <div class="facebook-icon">
+                                    <i class="fa fa-facebook-official"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <div class="description">Mùa hè nóng nực, mọi người nhất là trẻ em và người cao tuổi thường không muốn ăn mà chỉ uống nước.Mùa hè nóng nực, mọi người nhất là trẻ em và người cao tuổi thường không muốn ăn mà chỉ uống nước.</div>
+
+                        </div>
+                        <div class="index">
+                            <span><i class="fa fa-thumbs-up"></i> 212</span>
+                            <span><i class="fa fa-comment"></i> 212</span>
+                            <span><i class="fa fa-share"></i> 11</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
     <div class="footer">
 
     </div>

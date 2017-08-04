@@ -45,6 +45,17 @@ $bold: 700;
   url('../bower_components/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
 }
 
+
+@font-face {
+  font-family: 'UTM Alter Gothic';
+  src: url('../fonts/UTMAlterGothic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/UTMAlterGothic.woff') format('woff'),
+  url('../fonts/UTMAlterGothic.ttf')  format('truetype'),
+  url('../fonts/UTMAlterGothic.svg#UTMAlterGothic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 //set body
 
 html {

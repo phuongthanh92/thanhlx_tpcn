@@ -1,15 +1,45 @@
+$(document).ready(function () {
+    $('.menu-nav .menu-drop-down-wrapper').click(function () {
+        if ($(this).hasClass("active")) {
+            $(this).removeClass('active');
+            $('.main-menu-media').removeClass('open-normal-menu');
+        }else {
+            $('.menu-nav .menu-drop-down-wrapper').removeClass('active');
+            $(this).addClass('active');
+            $('.main-menu-media').removeClass('open-facebook-menu').addClass('open-normal-menu');
+        }
+    });
+    $('.close-normal-menu').click(function () {
+        $('.main-menu-media').removeClass('open-normal-menu');
+    })
+    $('.another-menu').click(function () {
+        $('.main-menu-media').removeClass('open-normal-menu').toggleClass('open-facebook-menu');
+    });
 
-$(document).ready(function() {
     $('.news-facebook-tab').click(function () {
-        $(this).closest('.menu-drop-down').find('.menu-orientation-bar .list-tabs .tab').removeClass('active');
+        var currentMenu = $(this).closest('.menu-drop-down');
+        currentMenu.find('.menu-orientation-bar .list-tabs .tab').removeClass('active');
+        currentMenu.find('.menu-orientation-content .list-normal-news').removeClass('active');
+        currentMenu.find('.menu-orientation-content .list-facebook-news').addClass('active');
         $(this).addClass('active');
-        console.log("thanh đẹp");
     });
 
     $(".menu-orientation-bar .list-tabs .tab").click(function () {
         $(".menu-orientation-bar .list-tabs .tab").removeClass('active');
-        $(this).closest('.menu-drop-down').find('.news-facebook-tab').removeClass('active');
+        var currentMenu = $(this).closest('.menu-drop-down');
+        currentMenu.find('.news-facebook-tab').removeClass('active');
+        currentMenu.find('.menu-orientation-content .list-normal-news').addClass('active');
+        currentMenu.find('.menu-orientation-content .list-facebook-news').removeClass('active');
         $(this).addClass('active');
-        console.log("thanh xinh");
+    });
+    $('#menu-tab-list a').click(function (e) {
+        e.preventDefault();
+        $(this).tab('show');
+        $('#menu-tab-list .tab').removeClass('active');
+        $(this).closest('.tab').addClass('active');
     })
-})
+
+    $('.menu-toggle').click(function () {
+        $('.menu-mobile').toggleClass('open-menu-content');
+    })
+});
