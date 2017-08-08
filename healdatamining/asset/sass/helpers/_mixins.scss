@@ -90,3 +90,15 @@
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+
+@mixin multiline($height, $line){
+  max-height: $height;
+  height: $height;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: $line;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  white-space: normal;
+  word-wrap: break-word;
+}

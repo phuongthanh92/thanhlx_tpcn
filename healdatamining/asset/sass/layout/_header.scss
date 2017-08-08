@@ -1,3 +1,8 @@
+.header{
+  position: relative;
+  z-index: 10;
+  background: #ffffff;
+}
 .main-banner{
   height: 356px;
   background-image:  url("../../images/banner-background.png"), url("../../images/banner-background-2.png") ;
@@ -5,6 +10,7 @@
   background-position: center, center;
   color: #ffffff;
   position: relative;
+  z-index: 1;
   .lg-text{
     margin: 0 0 10px;
     padding-top: 30px;
@@ -33,5 +39,12 @@
     left: 50%;
     margin-left: -100px;
     z-index: 2;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main-banner{
+    background-image:  url("../../images/banner-background-mobile.png"), url("../../images/banner-background-2.png") ;
+    background-repeat: no-repeat, repeat-x;
+    background-position: center, center;
   }
 }

@@ -1,7 +1,7 @@
 .main-menu-media {
   position: relative;
-  @extend %clearfix;
   margin: 0 auto;
+  @extend %clearfix;
   .close-normal-menu {
     width: 60px;
     height: 65px;
@@ -71,6 +71,8 @@
   .menu-nav {
     background: #ffffff;
     margin-bottom: 0;
+    height: 65px;
+    overflow-y: hidden ;
     @extend %clearfix;
     .menu-drop-down-wrapper {
       float: left;
@@ -428,6 +430,16 @@
   display: none !important;
 }
 
+@media screen and (min-width: 1440px){
+  .main-menu-media {
+    max-width: 1440px;
+    .menu-nav .menu-drop-down-wrapper > a{
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+  }
+}
+
 @media screen and (min-width: 1200px) and (max-width: 1365px) {
   .main-menu-media {
     .logo {
@@ -437,6 +449,7 @@
       }
     }
   }
+
 }
 
 @media screen and (min-width: 1200px) {

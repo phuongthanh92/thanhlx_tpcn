@@ -37,9 +37,21 @@ $(document).ready(function () {
         $(this).tab('show');
         $('#menu-tab-list .tab').removeClass('active');
         $(this).closest('.tab').addClass('active');
-    })
+    });
 
     $('.menu-toggle').click(function () {
         $('.menu-mobile').toggleClass('open-menu-content');
+    });
+
+    $('.open-droplist').click(function () {
+       $(this).closest('.register-box').toggleClass('show-droplist')
+    });
+
+    $('.close-droplist').click(function () {
+        $(this).closest('.register-box').removeClass('show-droplist')
+    });
+
+    $('.drop-list .checkbox input').click(function () {
+        $(this).closest('.item').toggleClass('selected');
     })
 });
