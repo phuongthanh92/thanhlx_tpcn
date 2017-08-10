@@ -39,6 +39,13 @@ $(document).ready(function () {
         $(this).closest('.tab').addClass('active');
     });
 
+    $("#tab-news-lg a").click(function (e) {
+        e.preventDefault();
+        $(this).tab('show');
+        $('#tab-news-lg .tab').removeClass('active');
+        $(this).closest('.tab').addClass('active');
+    });
+
     $('.menu-toggle').click(function () {
         $('.menu-mobile').toggleClass('open-menu-content');
     });
