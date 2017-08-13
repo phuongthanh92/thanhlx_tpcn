@@ -61,4 +61,10 @@ $(document).ready(function () {
     $('.drop-list .checkbox input').click(function () {
         $(this).closest('.item').toggleClass('selected');
     })
+    $('.control-sidebar').click(function () {
+        $(this).closest('.sidebar-detail-page').toggleClass('open');
+    })
+    $('.action-post .close-button').click(function () {
+        $(this).closest('.action-post').addClass('hidden');
+    })
 });
