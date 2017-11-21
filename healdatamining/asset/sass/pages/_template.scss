@@ -7,6 +7,7 @@
 }
 
 .facebook-author {
+  color: inherit;
   .avatar {
     width: 40px;
     height: 40px;
@@ -23,6 +24,7 @@
   .info {
     font-family: Arial, sans-serif;
     font-size: 13px;
+    color: inherit;
     .name {
       font-weight: bold;
       @include textoverflow(20px);
