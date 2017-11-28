@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e3811266-5d59-4ed0-ae1c-d46bacb39572" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/healdatamining/asset/css/main.css" afterPath="$PROJECT_DIR$/healdatamining/asset/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/healdatamining/asset/css/main.css.map" afterPath="$PROJECT_DIR$/healdatamining/asset/css/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/healdatamining/asset/sass/pages/_home.scss" afterPath="$PROJECT_DIR$/healdatamining/asset/sass/pages/_home.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/healdatamining/asset/sass/pages/_template.scss" afterPath="$PROJECT_DIR$/healdatamining/asset/sass/pages/_template.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/healdatamining/index.html" afterPath="$PROJECT_DIR$/healdatamining/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/healdatamining/asset/sass/pages/_listnews.scss" afterPath="$PROJECT_DIR$/healdatamining/asset/sass/pages/_listnews.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,11 +18,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/healdatamining/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
-              <caret line="1256" column="30" lean-forward="true" selection-start-line="1256" selection-start-column="30" selection-end-line="1256" selection-end-column="30" />
+              <caret line="1256" column="30" lean-forward="false" selection-start-line="1256" selection-start-column="30" selection-end-line="1256" selection-end-column="30" />
               <folding>
                 <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -66,7 +62,7 @@
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/healdatamining/asset/sass/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="698">
+            <state relative-caret-position="820">
               <caret line="41" column="23" lean-forward="false" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
               <folding />
             </state>
@@ -77,25 +73,18 @@
         <entry file="file://$PROJECT_DIR$/healdatamining/asset/sass/pages/_home.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2180">
-              <caret line="109" column="7" lean-forward="true" selection-start-line="109" selection-start-column="7" selection-end-line="109" selection-end-column="7" />
+              <caret line="109" column="7" lean-forward="false" selection-start-line="109" selection-start-column="7" selection-end-line="109" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_listnews.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_listnews.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/healdatamining/asset/sass/pages/_listnews.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2240">
-              <caret line="168" column="3" lean-forward="false" selection-start-line="168" selection-start-column="3" selection-end-line="168" selection-end-column="3" />
-              <folding>
-                <element signature="e#1371#1472#0" expanded="false" />
-                <element signature="e#2121#2500#0" expanded="false" />
-                <element signature="e#2520#2615#0" expanded="false" />
-                <element signature="e#2627#3026#0" expanded="false" />
-                <element signature="e#2666#2975#0" expanded="false" />
-                <element signature="e#3151#3409#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="782">
+              <caret line="339" column="24" lean-forward="true" selection-start-line="339" selection-start-column="24" selection-end-line="339" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -140,13 +129,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>item</find>
-      <find>item-f</find>
-      <find>fa-star-half</find>
-      <find>square-splash</find>
-      <find>type</find>
-      <find>fa-star-half-o</find>
-      <find>máu n</find>
       <find>325</find>
       <find>list-tabs</find>
       <find>grid-col-</find>
@@ -170,6 +152,13 @@
       <find>.facebook-author .info</find>
       <find>.facebook-author .inf</find>
       <find>.facebook-author</find>
+      <find>.fo</find>
+      <find>.form</find>
+      <find>.form-</find>
+      <find>.form-g</find>
+      <find>.form-gr</find>
+      <find>.form-grou</find>
+      <find>.form-group</find>
     </findStrings>
     <replaceStrings>
       <replace>assets/</replace>
@@ -219,7 +208,6 @@
         <option value="$PROJECT_DIR$/healdatamining/asset/sass/layout/_footer.scss" />
         <option value="$PROJECT_DIR$/healdatamining/asset/sass/components/_navigation.scss" />
         <option value="$PROJECT_DIR$/healdatamining/asset/sass/main.scss" />
-        <option value="$PROJECT_DIR$/healdatamining/asset/sass/pages/_listnews.scss" />
         <option value="$PROJECT_DIR$/healdatamining/detail-facebook-news.html" />
         <option value="$PROJECT_DIR$/healdatamining/asset/js/style.js" />
         <option value="$PROJECT_DIR$/healdatamining/list-news.html" />
@@ -227,6 +215,7 @@
         <option value="$PROJECT_DIR$/healdatamining/asset/sass/pages/_home.scss" />
         <option value="$PROJECT_DIR$/healdatamining/asset/sass/pages/_template.scss" />
         <option value="$PROJECT_DIR$/healdatamining/index.html" />
+        <option value="$PROJECT_DIR$/healdatamining/asset/sass/pages/_listnews.scss" />
       </list>
     </option>
   </component>
@@ -261,7 +250,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -382,6 +370,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -519,11 +508,12 @@
       <workItem from="1502319782825" duration="3442000" />
       <workItem from="1502596235245" duration="14091000" />
       <workItem from="1511259515883" duration="1947000" />
+      <workItem from="1511859108979" duration="1984000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132816000" />
+    <option name="totallyTimeSpent" value="134800000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -558,13 +548,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/bower_components/bootstrap-sass/assets/stylesheets/_bootstrap-sprockets.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -811,7 +794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1428">
           <caret line="84" column="19" lean-forward="false" selection-start-line="84" selection-start-column="7" selection-end-line="84" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -826,9 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="671">
           <caret line="65" column="6" lean-forward="false" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
-          <folding>
-            <element signature="e#93#490#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -836,12 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="334" column="4" lean-forward="false" selection-start-line="334" selection-start-column="4" selection-end-line="355" selection-end-column="5" />
-          <folding>
-            <element signature="e#5656#6342#0" expanded="false" />
-            <element signature="e#6712#7125#0" expanded="false" />
-            <element signature="e#10646#13072#0" expanded="false" />
-            <element signature="e#13134#15950#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -962,7 +935,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/healdatamining/asset/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
+        <state relative-caret-position="820">
           <caret line="41" column="23" lean-forward="false" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
           <folding />
         </state>
@@ -971,23 +944,8 @@
     <entry file="file://$PROJECT_DIR$/healdatamining/asset/sass/pages/_home.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2180">
-          <caret line="109" column="7" lean-forward="true" selection-start-line="109" selection-start-column="7" selection-end-line="109" selection-end-column="7" />
+          <caret line="109" column="7" lean-forward="false" selection-start-line="109" selection-start-column="7" selection-end-line="109" selection-end-column="7" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/healdatamining/asset/sass/pages/_listnews.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2240">
-          <caret line="168" column="3" lean-forward="false" selection-start-line="168" selection-start-column="3" selection-end-line="168" selection-end-column="3" />
-          <folding>
-            <element signature="e#1371#1472#0" expanded="false" />
-            <element signature="e#2121#2500#0" expanded="false" />
-            <element signature="e#2520#2615#0" expanded="false" />
-            <element signature="e#2627#3026#0" expanded="false" />
-            <element signature="e#2666#2975#0" expanded="false" />
-            <element signature="e#3151#3409#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1026,7 +984,7 @@
     <entry file="file://$PROJECT_DIR$/healdatamining/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="1256" column="30" lean-forward="true" selection-start-line="1256" selection-start-column="30" selection-end-line="1256" selection-end-column="30" />
+          <caret line="1256" column="30" lean-forward="false" selection-start-line="1256" selection-start-column="30" selection-end-line="1256" selection-end-column="30" />
           <folding>
             <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1059,6 +1017,22 @@
             <element signature="n#div#22;n#div#3;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#23;n#div#3;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healdatamining/asset/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="2634" column="0" lean-forward="false" selection-start-line="2634" selection-start-column="0" selection-end-line="2634" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healdatamining/asset/sass/pages/_listnews.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="339" column="24" lean-forward="true" selection-start-line="339" selection-start-column="24" selection-end-line="339" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
