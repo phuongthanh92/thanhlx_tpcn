@@ -1,0 +1,29 @@
+.select{
+  position: relative;
+  &:after{
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    content: "\f0d7";
+    background: #888888;
+    position: absolute;
+    top:0;
+    right: 0;
+    color: #000000;
+    font-family: FontAwesome;
+  }
+  select{
+    border:none;
+    padding-right: 44px;
+
+  }
+  &.select-inline{
+    display: inline-block;
+  }
+}
+.form-control{
+  -webkit-border-radius:0;
+  -moz-border-radius:0;
+  border-radius:0;
+}

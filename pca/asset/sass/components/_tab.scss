@@ -1,0 +1,14 @@
+.tabs-sp{
+  font-size: 14px;
+  font-family:"Lato";
+  li{
+    float: left;
+    padding: 0 7px;
+    &.active{
+      a{
+        color: #0277a4;
+        font-weight: bold;
+      }
+    }
+  }
+}

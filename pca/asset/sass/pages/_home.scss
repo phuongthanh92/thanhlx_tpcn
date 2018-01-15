@@ -1,0 +1,251 @@
+.wrapper-page{
+  padding-top: 56px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.part {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  margin: 0 auto;
+  .left {
+    order: 1;
+  }
+  .right {
+    order: 2;
+  }
+  .w40 {
+    width: 40%;
+    padding: 15px;
+  }
+  .w50 {
+    width: 50%;
+
+  }
+  .w60 {
+    width: 60%;
+    padding: 15px;
+  }
+  @media screen and (max-width: 767px){
+    display: block;
+    .w40, .w50, .w60{
+      width: 100%;
+      padding: 0 15px;
+    }
+  }
+}
+
+.top-content {
+  background: $blue;
+  color: #ffffff;
+  .title {
+    position: relative;
+    padding-top: 156px;
+    font-size: 36px;
+    line-height: 1.2;
+    padding-right: 30px;
+    .bird-01 {
+      position: absolute;
+      top: 88px;
+      right: 100px;
+    }
+    .bird-02 {
+      position: absolute;
+      top: 80px;
+      right: 0px;
+    }
+    .bird-03 {
+      position: absolute;
+      top: 10px;
+      right: 0px;
+    }
+  }
+  .content {
+    padding: 20px 20px 110px 0;
+  }
+  @media screen and (max-width: 767px){
+    min-height: 220px;
+    .part{
+      position: relative;
+      .left{
+        top:20px;
+        left: 0;
+        padding: 0;
+        position: absolute;
+        width: 45%;
+        text-align: right;
+        img{
+          max-height: 180px;
+        }
+      }
+    }
+    .title{
+      font-size:20px;
+      padding-right:0;
+      padding-top:110px;
+      .bird-01{
+        width: 50px;
+        top: 40px;
+        right: 64px;
+      }
+      .bird-02{
+        top: 22px;
+        right: 26px;
+        width: 30px;
+      }
+      .bird-03{
+        top: 10px;
+        right: 0px;
+        width: 34px;
+      }
+      .text-left, .text-right{
+        text-align: right;
+      }
+    }
+    .content{
+      display: none;
+    }
+  }
+}
+
+.content-part-default {
+  padding: 20px 0;
+  > .title-part {
+    font-size: 25px;
+    color: #8a9396;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    &:after {
+      width: 60px;
+      height: 2px;
+      content: "";
+      background: $blue;
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -30px;
+
+    }
+  }
+  .part {
+    padding-top: 50px;
+    .title {
+      font-size: 25px;
+      color: $blue;
+      margin: 20px 0 30px;
+      font-family: "Tahoma Bold", sans-serif;
+    }
+    p {
+      margin-bottom: 30px;
+    }
+  }
+  @media screen and (max-width: 767px){
+    .part{
+      padding-top:30px;
+      .title{
+        margin: 10px 0 15px;
+      }
+      .w40{
+        text-align: center;
+      }
+      .more-btn{
+        display: block;
+        width: 160px;
+        text-align: center;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+.services {
+  background: $blue;
+  > .title-part {
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    &:after {
+      width: 60px;
+      height: 2px;
+      content: "";
+      background: #ffffff;
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -30px;
+
+    }
+  }
+}
+
+.container {
+  max-width: 1000px;
+}
+
+.contact {
+  background: #ebebeb;
+  img{
+    width: 100%;
+  }
+  .container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  @media screen and (max-width: 767px){
+    text-align: center;
+  }
+}
+
+#services-sliders {
+  margin: 60px 0;
+  .item {
+    text-align: center;
+    .item-inner {
+      width: 275px;
+      height: 272px;
+      background: #ffffff;
+      border-radius: 3px;
+      text-align: center;
+      padding: 20px;
+      margin: 0 auto;
+      .title {
+        color: $blue;
+        font-size: 18px;
+        margin-bottom: 15px;
+      }
+    }
+  }
+  img {
+    width: auto;
+    margin: 0 auto 20px;
+  }
+}
+
+.more-btn {
+  line-height: 48px;
+  height: 48px;
+  padding: 0 30px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid $blue;
+  display: inline-block;
+  color: $blue;
+  transition: all 0.5s;
+  &:hover {
+    background: $blue;
+    color: #ffffff;
+  }
+
+}
