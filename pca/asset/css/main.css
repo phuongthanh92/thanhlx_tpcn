@@ -6753,6 +6753,22 @@ footer {
     width: auto;
     margin: 0 auto 20px; }
 
+#human-resource-sliders {
+  margin: 34px 0; }
+  #human-resource-sliders .item {
+    text-align: center; }
+    #human-resource-sliders .item .item-inner {
+      text-align: center;
+      padding: 20px;
+      margin: 0 auto; }
+      #human-resource-sliders .item .item-inner .title {
+        font-size: 18px;
+        margin-bottom: 15px;
+        text-transform: uppercase; }
+  #human-resource-sliders img {
+    width: auto;
+    margin: 0 auto 20px; }
+
 .more-btn {
   line-height: 48px;
   height: 48px;
