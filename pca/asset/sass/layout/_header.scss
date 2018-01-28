@@ -6,7 +6,11 @@
   left: 0;
   width: 100%;
   z-index: 10;
-  min-height: 56px;
+  min-height: 72px;
+  border: none;
+  .navbar-brand {
+    padding: 0 15px;
+  }
 }
 
 .navbar-toggle .icon-bar {
@@ -15,7 +19,7 @@
 
 .navbar-nav {
   > li {
-    padding: 10px;
+    padding: 22px 10px;
     background: transparent !important;
     a {
       padding: 7px 12px;

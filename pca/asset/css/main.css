@@ -5906,13 +5906,16 @@ p {
   left: 0;
   width: 100%;
   z-index: 10;
-  min-height: 56px; }
+  min-height: 72px;
+  border: none; }
+  .main-menu .navbar-brand {
+    padding: 0 15px; }
 
 .navbar-toggle .icon-bar {
   background: #ffffff; }
 
 .navbar-nav > li {
-  padding: 10px;
+  padding: 22px 10px;
   background: transparent !important; }
   .navbar-nav > li a {
     padding: 7px 12px;
@@ -6572,7 +6575,7 @@ footer {
   margin-right: -10px; }
 
 .wrapper-page {
-  padding-top: 56px; }
+  padding-top: 72px; }
 
 .text-left {
   text-align: left; }

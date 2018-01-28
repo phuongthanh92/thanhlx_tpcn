@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3811266-5d59-4ed0-ae1c-d46bacb39572" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pca/images/PCA_logo.png" afterPath="$PROJECT_DIR$/pca/images/PCA_logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pca/asset/css/main.css" afterPath="$PROJECT_DIR$/pca/asset/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pca/asset/css/main.css.map" afterPath="$PROJECT_DIR$/pca/asset/css/main.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pca/asset/sass/layout/_header.scss" afterPath="$PROJECT_DIR$/pca/asset/sass/layout/_header.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pca/asset/sass/pages/_home.scss" afterPath="$PROJECT_DIR$/pca/asset/sass/pages/_home.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pca/index.html" afterPath="$PROJECT_DIR$/pca/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,11 +41,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_home.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="_home.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pca/asset/sass/pages/_home.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="474">
-                  <caret line="246" column="33" lean-forward="false" selection-start-line="246" selection-start-column="33" selection-end-line="246" selection-end-column="33" />
+                <state relative-caret-position="340">
+                  <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
                   <folding>
                     <element signature="e#575#944#0" expanded="false" />
                     <element signature="e#1399#1469#0" expanded="false" />
@@ -59,7 +59,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="style.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="style.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pca/asset/js/style.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="374">
@@ -73,7 +73,7 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pca/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="424">
@@ -88,6 +88,16 @@
                     <element signature="n#script#0;n#div#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_header.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/pca/asset/sass/layout/_header.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="68">
+                  <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -190,9 +200,9 @@
         <option value="$PROJECT_DIR$/pca/asset/sass/layout/_footer.scss" />
         <option value="$PROJECT_DIR$/pca/asset/js/style.js" />
         <option value="$PROJECT_DIR$/pca/detail.html" />
-        <option value="$PROJECT_DIR$/pca/asset/sass/layout/_header.scss" />
-        <option value="$PROJECT_DIR$/pca/asset/sass/pages/_home.scss" />
         <option value="$PROJECT_DIR$/pca/index.html" />
+        <option value="$PROJECT_DIR$/pca/asset/sass/pages/_home.scss" />
+        <option value="$PROJECT_DIR$/pca/asset/sass/layout/_header.scss" />
       </list>
     </option>
   </component>
@@ -266,6 +276,14 @@
               <item name="asset" type="462c0819:PsiDirectoryNode" />
               <item name="sass" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thanhlx_tpcn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thanhlx_tpcn" type="462c0819:PsiDirectoryNode" />
+              <item name="pca" type="462c0819:PsiDirectoryNode" />
+              <item name="asset" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thanhlx_tpcn" type="b2602c69:ProjectViewProjectNode" />
@@ -436,12 +454,12 @@
       <workItem from="1511859108979" duration="1984000" />
       <workItem from="1513961864490" duration="205000" />
       <workItem from="1516024286719" duration="10277000" />
-      <workItem from="1517107017181" duration="1290000" />
+      <workItem from="1517107017181" duration="2168000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146572000" />
+    <option name="totallyTimeSpent" value="147450000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1386" height="788" extended-state="0" />
@@ -795,30 +813,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pca/asset/sass/layout/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pca/asset/sass/pages/_home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="246" column="33" lean-forward="false" selection-start-line="246" selection-start-column="33" selection-end-line="246" selection-end-column="33" />
-          <folding>
-            <element signature="e#575#944#0" expanded="false" />
-            <element signature="e#1399#1469#0" expanded="false" />
-            <element signature="e#1484#1554#0" expanded="false" />
-            <element signature="e#1569#1638#0" expanded="false" />
-            <element signature="e#1818#2122#0" expanded="false" />
-            <element signature="e#2656#3003#0" expanded="false" />
-            <element signature="e#3290#3605#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pca/asset/js/style.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -841,6 +835,30 @@
             <element signature="n#script#0;n#div#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pca/asset/sass/pages/_home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+          <folding>
+            <element signature="e#575#944#0" expanded="false" />
+            <element signature="e#1399#1469#0" expanded="false" />
+            <element signature="e#1484#1554#0" expanded="false" />
+            <element signature="e#1569#1638#0" expanded="false" />
+            <element signature="e#1818#2122#0" expanded="false" />
+            <element signature="e#2656#3003#0" expanded="false" />
+            <element signature="e#3290#3605#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pca/asset/sass/layout/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
